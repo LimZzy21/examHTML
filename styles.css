@@ -1,0 +1,19 @@
+li > h5{
+    padding: 0 32px;
+}
+
+li > hr{
+ 
+}
+
+.active{
+    background-color: palevioletred;
+}
+
+.sidenav li> .active:hover{
+    background-color: palevioletred;
+}
+
+.navLink {
+    padding: 0 10% 0 10%;
+}
