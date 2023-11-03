@@ -1,19 +1,20 @@
-li > h5{
-    padding: 0 32px;
+body{
+
+}
+ul li{
+    list-style: none;
+    display: inline;
 }
 
-li > hr{
- 
+li > img {
+    padding:1%;
 }
 
-.active{
-    background-color: palevioletred;
+.text{
+    
+    align-self: center;
 }
 
-.sidenav li> .active:hover{
-    background-color: palevioletred;
-}
-
-.navLink {
-    padding: 0 10% 0 10%;
+img{
+    padding: 0;
 }
