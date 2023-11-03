@@ -1,5 +1,5 @@
 body{
-
+overflow-x: hidden;
 }
 ul li{
     list-style: none;
@@ -18,4 +18,17 @@ li > img {
 img{
     padding: 0;
     white-space: 0;
+}
+
+@media only screen and (max-width: 800px) {
+    .social {
+        opacity: 0;
+        display: none;
+    }
+   
+}
+@media only screen and (max-width: 600px) {
+    .reverse {
+            flex-direction: column-reverse;
+        }
 }
